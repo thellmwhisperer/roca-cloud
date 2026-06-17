@@ -1,0 +1,15 @@
+[project]
+name = "roca-cloud"
+version = "0.1.0"
+description = "AWS-hosted Roca memory plane for agentic engineering demos."
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "psycopg[binary]>=3.2,<4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+roca_cloud = ["data/*.json", "data/*.sql"]
