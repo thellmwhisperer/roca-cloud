@@ -1,5 +1,9 @@
 # Roca Cloud
 
+[![CI](https://github.com/thellmwhisperer/roca-cloud/actions/workflows/ci.yml/badge.svg)](https://github.com/thellmwhisperer/roca-cloud/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776ab?logo=python&logoColor=white)](https://python.org)
+
 **An MCP-native memory and coordination plane for agentic systems.**
 
 Agents are stateless by default — every run starts blind. Roca Cloud gives them
